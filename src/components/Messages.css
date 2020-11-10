@@ -1,0 +1,37 @@
+.msg-container {
+    background-color: white;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 17px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: inset 0px 0px 10px rgba(0, 196, 82, 1);
+}
+
+.msg-container:hover {
+    border-radius: 0;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+p {
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+p:hover {
+    font-size: 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 360px) {
+    .msg-container {
+        width: 90%;
+    }
+}

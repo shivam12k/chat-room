@@ -1,0 +1,80 @@
+.chat {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 30px;
+    background-color: #54dc96;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:hover {
+    border-bottom: 5px solid rgb(8, 148, 71);
+}
+
+button {
+    /* Green */
+    border: none;
+    color: white;
+    padding: 24px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    box-shadow: inset 0px 0px 10px rgba(0, 196, 82, 1);
+}
+
+.button1:hover {
+    background-color: #54dc96;
+    box-shadow: inset 0px 0px 10px rgb(238, 238, 238);
+    color: white;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 360px) {
+    input {
+        position: fixed;
+        float: bottom;
+        width: 83%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .button1 {
+        padding: 18px 14px;
+        padding-top: 28px;
+        padding-bottom: 26px;
+        position: fixed;
+        float: bottom;
+        margin-left: 185px;
+        margin-top: 27px;
+        /* margin-left: 300px;
+        margin-top: 40px; */
+    }
+    .button1:hover {
+        background-color: tomato;
+        border-radius: 0%;
+    }
+}

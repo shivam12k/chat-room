@@ -1,0 +1,31 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        height: 200vh;
+        background: #54dc96;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    nav {
+        background-color: #3bb78f;
+        background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+        filter: drop-shadow(8px 8px 10px gray);
+    }
+    
+    .logo {
+        margin-right: 70px;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .logo:hover {
+        filter: grayscale(100%);
+    }
+    
+    .name {
+        font-weight: 600;
+        font-size: 20px;
+    }

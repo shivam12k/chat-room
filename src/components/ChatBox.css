@@ -1,0 +1,24 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #54dc96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbox {
+    margin-top: 40px;
+    width: 70%;
+    height: 650px;
+    border-radius: 21px;
+    background: #54dc96;
+    box-shadow: -19px -19px 38px #3da16e, 19px 19px 38px #6bffbf;
+}
+
+@media only screen and (max-width: 360px) {
+    .chatbox {
+        width: 90%;
+        height: 70%;
+    }
+}
